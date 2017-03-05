@@ -8,7 +8,7 @@
       <div id="hero">
         <div id="hero-msg-container">
           <div id="hero-msg">
-            <h1 id="hero-title">Let's Build Something Together</h1>
+            <h1 id="hero-title"><?php the_field('main_header');?></h1>
             <p>Web apps designed with you in mind</p>
           </div>
         </div>
