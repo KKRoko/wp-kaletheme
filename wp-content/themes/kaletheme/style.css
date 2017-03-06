@@ -991,9 +991,12 @@ object {
 
 .front-desc-container {
 	text-align: center;
-	margin: 20;
+	margin: 20px;
 	padding: 20px 50px;
 	font-size: 1.5em;
+}
+.front-desc-container h4 {
+	font-weight: 400;
 }
 #mtt {
     border: 0;
@@ -1042,6 +1045,9 @@ object {
 	}
 #lm-srv a{
 	text-decoration: none;
+	color: #FFFFFF;
+}
+#lm-srv p{
 	color: #FFFFFF;
 }
 #lm-srv:hover {
