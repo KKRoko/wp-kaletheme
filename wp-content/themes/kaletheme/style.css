@@ -1098,59 +1098,94 @@ object {
 /*--------------------------------------------------------------
 ## Service Page
 --------------------------------------------------------------*/
-
-
-#srvs-hd, #abt-hd {
-    font-size: 2.5em;
-    font-weight: 600;
-    text-align: center;
-    margin: 30px;
-    color: rgba(239, 83, 80, 1);
-    height: 100%;
+.srv-body-wrapper {
+background-image: linear-gradient(to top, #ef5053 0%, #000000 100%);
+background-attachment: fixed;
 }
-#srvs-tl-bc {
-  background-color: rgba(67, 67, 67, 1);
-  width: 100%;
-}
-#srvs-tl {
-  text-align: center;
-  max-width: 869px;
-  margin: 0 auto;
-  color: #FFFFFF;
-  padding: 20px;
-}
-
-.srv-cont {
-	display: flex;
-	margin: 20px;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-.srv-card {
-	margin: 25px;
-	height: 550px;
-	width: 500px;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-.srv-content {
+.srv-page-header {
+	text-align: center;
 	padding: 20px;
 }
-.srv-content p {
-	font-size: 1.3em;
-
+.srv-page-header h3 {
+	color: #FFFFFF;
+	font-size: 2.5em;
+}
+.srv-page-header p {
+	color: #FFFFFF;
+	font-size: 1.5em;
+	padding: 0 0 30px 0;
+	margin: 0 0 20px 0;
+}
+.srv-cont {
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.srv-card {
+ display: flex;
+ justify-content: center;
+ margin: 0 0 40px 0;
+ padding: 0 0 40px 0;
+ align-items: center;
+}
+.card-img-cont-right, .card-content-cont-left {
+	margin-right: 50px;
+}
+.card-content-cont-right, .card-content-cont-left {
+	width: 70%;
+}
+.srv-card p {
+	font-size: 1.4em;
 }
 .wp-image-93, .wp-image-106, .wp-image-105, .wp-image-104 {
-	padding: 10px;
-	height: 100px;
-	width: 100px;
-	display: block;
-	margin: 0 auto;
+	height: 200px;
 }
-
-.srv-card h4 {
+.tls-srvs-cont {
+	border: 3px solid #FFFFFF;
+	border-bottom: none;
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.tls-srvs-header {
 	text-align: center;
+}
+.tls-srvs-header h5 {
+	color: #FFFFFF;
+	font-size: 2em;
+	font-weight: 400;
+}
+.tls-srvs-card-cnt {
+
+}
+.tls-srvs-card {
+	width: 500px;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.tls-srvs-card-cnt h6 {
+	font-size: 1.3em;
+}
+.tls-srvs-card ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.tls-srvs-card li {
+	list-style: none;
+	color: #FFFFFF;
+}
+.srv-card h4 {
 	font-size: 2em;
 	margin-bottom: 10px;
+	color: #FFFFFF;
+}
+.srv-card p {
+	color: #FFFFFF;
 }
 .srv-content ul {
 	margin: 0;
@@ -1187,7 +1222,12 @@ object {
 	height: 50px;
 	width: 50px;
 	padding: 0 5px;
-	display: block;
+	display: inline-block;
+}
+.crt-icon-x {
+	height: 22px;
+	width: 80px;
+	vertical-align: top;
 }
 .crt-icon-node {
 	height: 22px;

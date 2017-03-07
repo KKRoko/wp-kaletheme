@@ -36,39 +36,39 @@
       </section>
       <section>
         <div class="clnts-tstmnls-cont">
-<div id="tsmls-bgc">
-<div id="tsmls-cntr">
-<h1 id="tsmls-hl">What my clients say</h1>
-<div id="tsmls-contr">
-<div class="tsml-item">
-<p class="tsml-qt">"Konrad's skill and enthusiasm for supporting good causes is proof that programmers have just as much to offer to charities and non-profit organisations as anyone."</p>
-<p class="tsml-ath">Ed Guiness, Social Coder</p>
+          <div id="tsmls-bgc">
+            <div id="tsmls-cntr">
+            <h1 id="tsmls-hl">What my clients say</h1>
+              <div id="tsmls-contr">
+                <div class="tsml-item">
+                  <p class="tsml-qt">"Konrad's skill and enthusiasm for supporting good causes is proof that programmers have just as much to offer to charities and non-profit organisations as anyone."</p>
+                  <p class="tsml-ath">Ed Guiness, Social Coder</p>
 
-</div>
-<div class="tsml-item">
-<p class="tsml-qt">"Konrad was organized, efficient, and willing to do whatever was needed to get a particular task finished. He was extremely flexible and did a great job of covering end of day job during peak volumes. "</p>
-<p class="tsml-ath">George Bailey, The Vanguard Group</p>
+                </div>
+                <div class="tsml-item">
+                  <p class="tsml-qt">"Konrad was organized, efficient, and willing to do whatever was needed to get a particular task finished. He was extremely flexible and did a great job of covering end of day job during peak volumes. "</p>
+                  <p class="tsml-ath">George Bailey, The Vanguard Group</p>
 
-</div>
-<div class="tsml-item">
-<p class="tsml-qt">"Endorsing skills for Web developement, HTML, CSS, and JavaScript"</p>
-<p class="tsml-ath">Michael D Johnson, Free Code Camp</p>
+                </div>
+                <div class="tsml-item">
+                  <p class="tsml-qt">"Endorsing skills for Web developement, HTML, CSS, and JavaScript"</p>
+                  <p class="tsml-ath">Michael D Johnson, Free Code Camp</p>
 
-</div>
-<div class="tsml-item">
-<p class="tsml-qt">"Endorsing skills for Web developement, SQL, and CSS"</p>
-<p class="tsml-ath">Denise Samuel, Prudential Financial</p>
+                </div>
+                <div class="tsml-item">
+                  <p class="tsml-qt">"Endorsing skills for Web developement, SQL, and CSS"</p>
+                  <p class="tsml-ath">Denise Samuel, Prudential Financial</p>
 
-</div>
-<div class="tsml-item">
-<p class="tsml-qt">"Endorsing skills for Web developement, CSS, Finance, Data Analysis, and Risk Management"</p>
-<p class="tsml-ath">Dragan Jerinic, Front end Developer</p>
+                </div>
+                <div class="tsml-item">
+                  <p class="tsml-qt">"Endorsing skills for Web developement, CSS, Finance, Data Analysis, and Risk Management"</p>
+                  <p class="tsml-ath">Dragan Jerinic, Front end Developer</p>
 
-</div>
-</div>
-</div>
-</div>
-</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section>
         <?php the_field('home_map'); ?>
