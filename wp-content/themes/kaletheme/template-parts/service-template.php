@@ -13,7 +13,7 @@
       <div class="srv-page-header">
         <h3>What We Provide</h3>
         <p>
-          Let's built your site that will allow you reach with new clients and to connect with existng ones.
+          Let's built your site that will allow you reach new clients and connect with existng ones.
         </p>
       </div>
     </section>
@@ -26,7 +26,7 @@
             <div class="card-content-cont-right">
               <h4>Creative</h4>
               <p>
-                Let's develop a site that is specifically tailored to your needs. From custom design to custom themes and code, your site will be tailored made just for your site. The site we develope is precisely catered for you and just you. Why custom development rather that generic theme? Becuase we care about your success.
+                Let's develop a site that is specifically tailored to your needs. From custom design to custom themes, your site will be made just for your site. The site we develop is precisely catered for you and just you.
               </p>
             </div>
         </div>
@@ -48,7 +48,7 @@
             <div class="card-content-cont-right">
               <h4>Strategy</h4>
               <p>
-                Data is creating a tremendous oppurtunity for businesses. I provide a range of analytic servies from basic data maangement to sophisticated analytics in customer attributes and web analytics. Ler's harness that power and use it to make meaningful and smart decision for your business that drive cost reduction and revenue maximization.
+                Data is creating a tremendous oppurtunity for businesses. I provide a range of analytic servies from basic data management to sophisticated analytics in customer attributes and web analytics. Ler's harness that power and use it to make meaningful and smart decision for your business that drive cost reduction and revenue maximization.
               </p>
             </div>
         </div>
@@ -56,7 +56,7 @@
             <div class="card-content-cont-left">
               <h4>Marketing and Social Media</h4>
               <p>
-                Let's increase your brand recognition and visibility through marketing. We will intergrate your social media, email, and create email templates to help reach your customer and discover new ones.
+                Let's increase your brand recognition and visibility through marketing. We will intergrate your social media, email marketing campaigns, and create email templates to help reach your customer and discover new ones.
               </p>
             </div>
             <div class="card-img-cont-left">
@@ -68,7 +68,7 @@
     <section>
       <div class="tls-srvs-cont">
         <div class="tls-srvs-header">
-          <h5>Tools and Services</h5>
+
         </div>
         <div class="tls-srvs-card-cnt">
           <div class="tls-srvs-card">
@@ -134,26 +134,24 @@
             </div>
           </div>
           <div class="tls-srvs-card">
-            <h6>E-Commerce</h6>
+            <h6>Database / Analytics</h6>
             <div class="tls-srvs-list">
               <ul>
-                <li>Setup Payment Gateway</li>
-                <li>Responsive Designn</li>
-                <li>Content Upload</li>
-                <li>Plugins / Extenstions installations</li>
-                <li>Multiple Pages</li>
-                <li>Revisions</li>
+                <li>Google Analytics</li>
+                <li>Google Tag Manager</li>
+                <li>Segment</li>
+                <li>Intercomm</li>
+                <li>Mixpanel</li>
+                <li>SQL: MySQL | Postgres</li>
+                <li>MongoDB</li>
               </ul>
             </div>
             <div class="tls-srvs-imgs">
-              <img class="crt-icon" src="/wp-content/uploads/2017/02/time.svg" alt="" />
-              <img class="crt-icon" src="/wp-content/uploads/2017/02/credit-card.svg" alt="" />
-              <img class="crt-icon" src="/wp-content/uploads/2017/02/buy.svg" alt="" />
-              <img class="crt-icon" src="/wp-content/uploads/2017/02/tap.svg" alt="" />
-              <img class="crt-icon" src="/wp-content/uploads/2017/02/delivery.svg" alt="" />
-              <img class="crt-icon" src="/wp-content/uploads/2017/02/telemarketer.svg" alt="" />
-              <img class="crt-icon" src="/wp-content/uploads/2017/02/smartphone.svg" alt="" />
-              <img class="crt-icon" src="/wp-content/uploads/2017/02/worldwide.svg" alt="" />
+              <img class="crt-icon-i" src="/wp-content/uploads/2017/02/mongodb.svg" alt="" />
+              <img class="crt-icon" src="/wp-content/uploads/2017/02/mysql-1.svg" alt="" />
+              <img class="crt-icon-i" src="/wp-content/uploads/2017/02/mixpanel.svg" alt="" />
+              <img class="crt-icon" src="/wp-content/uploads/2017/02/google-analytics.svg" alt="" />
+              <img class="crt-icon-i" src="/wp-content/uploads/2017/02/intercom-1.svg" alt="" />
             </div>
           </div>
         </div>

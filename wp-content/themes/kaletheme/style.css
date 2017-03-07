@@ -1117,7 +1117,7 @@ background-attachment: fixed;
 	margin: 0 0 20px 0;
 }
 .srv-cont {
-	width: 800px;
+	width: 900px;
 	height: 100%;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -1125,8 +1125,8 @@ background-attachment: fixed;
 .srv-card {
  display: flex;
  justify-content: center;
- margin: 0 0 40px 0;
- padding: 0 0 40px 0;
+ margin: 40px 0 40px 0;
+ padding: 40px 0 40px 0;
  align-items: center;
 }
 .card-img-cont-right, .card-content-cont-left {
@@ -1136,7 +1136,7 @@ background-attachment: fixed;
 	width: 70%;
 }
 .srv-card p {
-	font-size: 1.4em;
+	font-size: 1em;
 }
 .wp-image-93, .wp-image-106, .wp-image-105, .wp-image-104 {
 	height: 200px;
@@ -1187,6 +1187,11 @@ background-attachment: fixed;
 .srv-card p {
 	color: #FFFFFF;
 }
+.tls-srvs-imgs {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .srv-content ul {
 	margin: 0;
 	display: inline-block;
@@ -1224,10 +1229,9 @@ background-attachment: fixed;
 	padding: 0 5px;
 	display: inline-block;
 }
-.crt-icon-x {
+.crt-icon-x, .crt-icon-i {
 	height: 22px;
 	width: 80px;
-	vertical-align: top;
 }
 .crt-icon-node {
 	height: 22px;
@@ -1270,8 +1274,8 @@ footer a {
 }
 
 .ftr-ctn {
-  width: 620px;
-  margin: 0 auto;
+	display: flex;
+	justify-content: center;
   position: relative;
 }
 
