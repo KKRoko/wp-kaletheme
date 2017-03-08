@@ -71,7 +71,7 @@
         </div>
       </section>
       <section>
-        <?php the_field('home_map'); ?>
+        <div id="googleMap" style="width: 100%; height: 100vh;"></div>
       </section>
   </div>
 
