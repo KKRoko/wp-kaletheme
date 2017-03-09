@@ -427,22 +427,25 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
-	background: #e6e6e6;
-	color: rgba(0, 0, 0, .8);
-	font-size: 12px;
-	font-size: 0.75rem;
+	width: 100%;
+	border-radius: 5px;
+	background: #EF5053;
+	border-color: #EF5053;
+	color: #FFFFFF;
+	font-size: 1.2em;
 	line-height: 1;
 	padding: .6em 1em .4em;
+	border: none;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
+		border: none;
+	border-color: #EF5053;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.25), 0 2px 3px rgba(0,0,0,0.22);
 }
 
 button:focus,
@@ -453,7 +456,8 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	border-color: #aaa #bbb #bbb;
+	border: none;
+	border-color: #EF5053;
 }
 
 input[type="text"],
@@ -472,10 +476,12 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
+	color: #EF5053;
+	border: none;
+	border-bottom: 2px solid #EF5053;
 	padding: 3px;
+	outline: none;
+	width: 100%;
 }
 
 select {
@@ -498,7 +504,10 @@ input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
-	color: #111;
+	color: #EF5053;
+}
+::placeholder {
+	color: #EF5053;
 }
 
 textarea {
@@ -1157,16 +1166,22 @@ background-attachment: fixed;
 	font-weight: 400;
 }
 .tls-srvs-card-cnt {
-
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 .tls-srvs-card {
-	width: 500px;
+	width: 400px;
 	color: #FFFFFF;
 	text-align: center;
-	margin: 0 auto;
+	padding: 20px;
+	margin: 20px;
 	border-radius: 5px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
+
 .tls-srvs-card-cnt h6 {
 	font-size: 1.3em;
 }
@@ -1242,8 +1257,17 @@ background-attachment: fixed;
 ## About Me Page
 --------------------------------------------------------------*/
 .abt-cont {
-	width: 750px;
+	width: 600px;
 	margin: 0 auto;
+	background-image: linear-gradient(to top, #ef5053 0%, #000000 100%);
+	background-attachment: fixed;
+	color: #FFFFFF;
+	padding: 20px;
+	font-size: 1.2em;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .wp-image-184 {
 	float: left;
@@ -1331,7 +1355,7 @@ background-attachment: fixed;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .tatami-ten h3 {
-	padding-top: 20px;
+	padding-top: 15px;
 	text-align: center;
 	color: #EF5053;
 	font-weight: 400;
@@ -1339,7 +1363,7 @@ background-attachment: fixed;
 }
 .tatami-one {
 	position: relative;
-	background: #EF5053;
+	background: linear-gradient(to top, #ef5053 0%, #000000 100%);
 	width: 400px;
 	padding: 10px;
 	border-radius: 5px;
@@ -1420,7 +1444,7 @@ figure.tatami-one:hover p {
 
 .tatami-two {
 	position: relative;
-	background: #EF5053;
+	background: linear-gradient(to top, #ef5053 0%, #000000 100%);
 	width: 400px;
 	padding: 10px;
 	border-radius: 5px;
@@ -1500,7 +1524,7 @@ figure.tatami-two:hover p {
 }
 .tatami-three {
 	position: relative;
-	background: #EF5053;
+	background: linear-gradient(to top, #ef5053 0%, #000000 100%);
 	width: 400px;
 	padding: 10px;
 	border-radius: 5px;
@@ -1581,7 +1605,7 @@ figure.tatami-three:hover p {
 
 .tatami-four {
 	position: relative;
-	background: #EF5053;
+	background: linear-gradient(to top, #ef5053 0%, #000000 100%);
 	width: 400px;
 	padding: 10px;
 	border-radius: 5px;
@@ -1661,7 +1685,7 @@ figure.tatami-four:hover p {
 }
 .tatami-five {
 	position: relative;
-	background: #EF5053;
+	background: linear-gradient(to top, #ef5053 0%, #000000 100%);
 	width: 400px;
 	padding: 10px;
 	border-radius: 5px;
@@ -1741,7 +1765,7 @@ figure.tatami-five:hover p {
 }
 .tatami-six {
 	position: relative;
-	background: #EF5053;
+	background: linear-gradient(to top, #ef5053 0%, #000000 100%);
 	width: 260px;
 	padding: 10px;
 	border-radius: 5px;
@@ -1818,6 +1842,19 @@ figure.tatami-six:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+}
+
+/*--------------------------------------------------------------
+## Contact Page
+--------------------------------------------------------------*/
+div.wpcf7 {
+	width: 500px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+input .wpcf7-submit {
+	background: #EF5053;
+	border: none;
 }
 /*--------------------------------------------------------------
 ## Footer

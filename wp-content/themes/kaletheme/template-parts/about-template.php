@@ -8,9 +8,6 @@
 ?>
 <?php get_header(); ?>
 <section>
-<div id="abt-hd">
-<h3>About Me</h3>
-</div>
 <div class="abt-cont"><img class="alignnone size-full wp-image-184" src="/wp-content/uploads/2017/02/headshot.png" alt="" width="220" height="220" />Yo I'm Konrad, an analyst / developer based in Philly with over 5 years of experience in various industries including Fintech, Investment Management, Telecommunication, Insurance and Nonprofit.
 I develop responsive and beautiful website for small businesses and entrepernuers.
 My greatest joy is helping my clients achieve their goals. Throughout my career, my role has always been centered around the client. How do I make my clients' lives, experience, and relationship with the company better? It is such an amazing experience to assist my partners in creating effective marketing campaigns and help them drive sales. My goal in development not only help my client drive new sales but also present their brand to their target audience and create successful long term partnerships.

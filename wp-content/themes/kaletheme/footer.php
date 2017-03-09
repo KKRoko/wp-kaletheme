@@ -61,9 +61,11 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="wp-content/themes/kaletheme/js/functions.js"></script>
 </body>
 </html>

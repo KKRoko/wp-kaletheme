@@ -139,9 +139,7 @@
               <ul>
                 <li>Google Analytics</li>
                 <li>Google Tag Manager</li>
-                <li>Segment</li>
-                <li>Intercomm</li>
-                <li>Mixpanel</li>
+                <li>Segment | Intercomm | Mixpanel</li>
                 <li>SQL: MySQL | Postgres</li>
                 <li>MongoDB</li>
               </ul>

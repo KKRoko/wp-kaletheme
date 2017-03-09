@@ -6,11 +6,7 @@ console.log('callback - particles.js config loaded');
 
 
 // Google Maps
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker = new google.maps.Marker({
-position: myCenter,
-title:'Click to zoom'
-});
+
 
 var myCenter=new google.maps.LatLng(39.9525839,-75.1652215);
 function initialize()
@@ -102,7 +98,11 @@ var mapProp = {
     }
   ]
 };
-
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({
+position: myCenter,
+title:'Click to zoom'
+});
 
 marker.setMap(map);
 // Zoom to 9 when clicking on marker
