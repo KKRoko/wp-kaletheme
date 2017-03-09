@@ -109,9 +109,10 @@ function kaletheme_scripts() {
 
 	wp_enqueue_style( 'kaletheme-fonts', get_template_directory_uri() . '/fontello.css' );
 
+
 	wp_enqueue_script( 'kaletheme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 	wp_enqueue_script( 'kaletheme-particle', get_template_directory_uri() . '/js/particles.js', array(), '20151215', true );
-	
+
 
 
 

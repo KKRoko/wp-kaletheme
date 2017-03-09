@@ -47,13 +47,12 @@
 			<div class="home-nav-container">
 				<h3 id="home-nav"><a href="/"><span id="lg-wn">K</span><span id="lg-tw" class="fadeInLeft animated">K</span></a></h1>
 			</div>
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><div id="nav-icon3">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><div class="nav-icon3">
                   <span></span>
                   <span></span>
                   <span></span>
                   <span></span>
                 </div><?php esc_html_e( '', 'kaletheme' ); ?></button>
-
 					<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 
