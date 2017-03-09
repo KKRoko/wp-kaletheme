@@ -42,13 +42,21 @@
 			endif; ?>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
+		<nav id="site-navigation" class="main-navigation  cover-2" role="navigation">
+
 			<div class="home-nav-container">
 				<h3 id="home-nav"><a href="/"><span id="lg-wn">K</span><span id="lg-tw" class="fadeInLeft animated">K</span></a></h1>
 			</div>
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'kaletheme' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><div id="nav-icon3">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div><?php esc_html_e( '', 'kaletheme' ); ?></button>
+
+					<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

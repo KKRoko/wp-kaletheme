@@ -7,7 +7,7 @@
         <div id="hero-msg-container">
           <div id="hero-msg">
             <h1 id="hero-title"><?php the_field('main_header');?></h1>
-            <p><?php the_field('sub_header');?></p>
+            <p id="hero-sub-title"><?php the_field('sub_header');?></p>
           </div>
         </div>
         <div id="particles-js"></div>
