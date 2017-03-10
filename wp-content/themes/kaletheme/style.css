@@ -522,6 +522,7 @@ textarea:focus {
 
 textarea {
 	width: 100%;
+	height: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -556,6 +557,12 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+#site-navigation {
+	position: fixed;
+	z-index: 1;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	padding-bottom: 0;
+}
 .main-navigation {
 	clear: both;
 	display: flex;
@@ -765,16 +772,19 @@ transition: .3s;
 	outline: none;
 }
 .main-navigation ul {
-	 transition: height 0.5s linear;
+
 }
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
-   transition: height 0.5s linear;
+
 }
 .test-go {}
 
 @media screen and (max-width: 700px) {
+	/*--------------------------------------------------------------
+	# Nav
+	--------------------------------------------------------------*/
 	.nav-icon3 {
 		display: block;
 	}
@@ -785,8 +795,9 @@ transition: .3s;
 		display: inline-block;
 	}
 	.menu-menu-1-container {
-		margin-top: 10px;
+		padding-top: 10px;
 		min-width: 0;
+		display: block;
 	}
 	.menu-toggle {
 		display: inline-block;
@@ -804,8 +815,12 @@ transition: .3s;
 		text-align: center;
 		width: 100px;
 		margin-left: auto;
-
 	}
+
+	/*--------------------------------------------------------------
+	#
+	--------------------------------------------------------------*/
+
 }
 
 @media screen and (min-width: 700px) {
@@ -1120,16 +1135,19 @@ object {
 	color: #FFFFFF;
 	width: 502px;
 	margin: 0 auto;
+	transition: 2s;
 }
 #hero-title {
 	font-weight: lighter;
 	margin: 0;
 	font-size: 3em;
 	line-height: 1em;
+	transition: 2s;
 }
 #hero-sub-title {
 	margin-top: 30px;
 	font-size: 1.3em;
+	transition: 2s;
 }
 .tgh-color {
 	color: #EF5053;
@@ -1172,6 +1190,8 @@ object {
 	margin: 0 auto;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	justify-content: center;
+	align-items: center;
 }
 .srv {
 	width: 180px;
@@ -1244,6 +1264,29 @@ object {
   font-weight: bold;
   font-size: 1.3em;
   margin: 10px;
+}
+
+@media screen and (max-width: 700px) {
+	#hero-title {
+		font-size: 2em;
+	}
+	#hero-sub-title {
+		margin-top: 20px;
+		font-size: 1.1em;
+	}
+	.srv-container {
+		width: 100%;
+	}
+	#hero-msg {
+		width: 100%;
+		padding: 18px 5px 0 20px;
+	}
+}
+@media screen and (max-width: 900px) {
+	#tsmls-cntr {
+		width: 100%;
+		padding: 20px;
+	}
 }
 
 
@@ -1395,6 +1438,9 @@ background-attachment: fixed;
 	height: 22px;
 	align-self: center;
 }
+
+
+
 
 /*--------------------------------------------------------------
 ## About Me Page
