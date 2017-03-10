@@ -2215,13 +2215,18 @@ figure.tatami-six:hover p {
 ## Contact Page
 --------------------------------------------------------------*/
 div.wpcf7 {
-	width: 500px;
+	max-width: 500px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 50px 50px;
 }
 input .wpcf7-submit {
 	background: #EF5053;
 	border: none;
+}
+.cont-header {
+	margin-top: 80px;
+	text-align: center;
+	color: #EF5053;
 }
 /*--------------------------------------------------------------
 ## Footer
