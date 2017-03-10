@@ -1598,30 +1598,35 @@ transition: 2s;
 	height: 900px;
 	width: 820px;
 	margin: 0 auto;
+	transition: 2s;
 }
 .grid-one {
 	position: absolute;
 	top: 130px;
 	left: 420px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 2s;
 }
 .grid-two {
 	position: absolute;
 	top: 0;
 	left: 420px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 2s;
 }
 .grid-three {
 	position: absolute;
 	top: 354px;
 	left: 420px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 2s;
 }
 .grid-four {
 	position: absolute;
 	top: 112px;
 	left: 0;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 2s;
 }
 
 .grid-ten {
@@ -1633,29 +1638,37 @@ transition: 2s;
 	background: #EF5053;
 	border-radius: 5px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 2s;
 }
 .grid-five {
 	position: absolute;
 	top: 315px;
 	left: 0;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 2s;
 }
 .grid-six {
 	position: absolute;
 	top: 675px;
 	left: 0;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 2s;
 }
 .grid-seven {
 	position: absolute;
 	top: 675px;
 	left: 280px;
 	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 2s;
 }
 .grid-eight {
 	position: absolute;
 	top: 675px;
 	left: 560px;
 	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 2s;
 }
 .tatami-ten {
 	position: relative;
@@ -1671,7 +1684,7 @@ transition: 2s;
 	text-align: center;
 	color: #EF5053;
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 .tatami-one {
 	position: relative;
@@ -1818,7 +1831,7 @@ figure.tatami-two p {
 	transform: translate3d(0,20px,0);
 	text-align: center;
 	color: #FFFFFF;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 figure.tatami-two:hover figcaption::before,
@@ -2154,6 +2167,48 @@ figure.tatami-six:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+}
+
+@media screen and (max-width: 900px) {
+	.tatami-container {
+		height: 2100px;
+		width: 400px;
+	}
+	.grid-two {
+		top: 112px;
+		left: 0;
+	}
+	.grid-four {
+		top: 238px;
+	}
+	.grid-one {
+		top: 440px;
+		left: 0;
+	}
+	.grid-five {
+		top: 660px;
+	}
+	.grid-three {
+		top: 1020px;
+		left: 0;
+	}
+	.grid-six {
+		width: 400px;
+		top: 1340px;
+	}
+	.tatami-six {
+		width: 100%;
+	}
+	.grid-seven {
+		width: 400px;
+		top: 1585px;
+		left: 0;
+	}
+	.grid-eight {
+		width: 400px;
+		top: 1830px;
+		left: 0;
+	}
 }
 
 /*--------------------------------------------------------------
