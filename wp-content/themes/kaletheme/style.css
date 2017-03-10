@@ -1320,26 +1320,34 @@ object {
 .srv-body-wrapper {
 background-image: linear-gradient(to top, #ef5053 0%, #000000 100%);
 background-attachment: fixed;
+margin-top: 50px;
+transition: 2s;
 }
 .srv-page-header {
 	text-align: center;
 	padding: 20px;
+	transition: 2s;
 }
 .srv-page-header h3 {
 	color: #FFFFFF;
 	font-size: 2.5em;
+	transition: 2s;
+	transition: 2s;
 }
 .srv-page-header p {
 	color: #FFFFFF;
 	font-size: 1.5em;
 	padding: 0 0 30px 0;
 	margin: 0 0 20px 0;
+	transition: 2s;
+	transition: 2s;
 }
 .srv-cont {
-	width: 900px;
+
 	height: 100%;
-	margin: 0 auto;
+	margin: 50px;
 	margin-top: 20px;
+	transition: 2s;
 }
 .srv-card {
  display: flex;
@@ -1347,15 +1355,19 @@ background-attachment: fixed;
  margin: 40px 0 40px 0;
  padding: 40px 0 40px 0;
  align-items: center;
+ transition: 2s;
 }
 .card-img-cont-right, .card-content-cont-left {
 	margin-right: 50px;
+	transition: 2s;
 }
 .card-content-cont-right, .card-content-cont-left {
 	width: 70%;
+	transition: 2s;
 }
 .srv-card p {
 	font-size: 1em;
+	transition: 2s;
 }
 .wp-image-93, .wp-image-106, .wp-image-105, .wp-image-104 {
 	height: 200px;
@@ -1363,8 +1375,7 @@ background-attachment: fixed;
 .tls-srvs-cont {
 	border: 3px solid #FFFFFF;
 	border-bottom: none;
-	width: 1000px;
-	margin: 0 auto;
+	margin: 0 50px;
 	padding-bottom: 50px;
 }
 .tls-srvs-header {
@@ -1411,6 +1422,7 @@ background-attachment: fixed;
 }
 .srv-card p {
 	color: #FFFFFF;
+	transition: 2s;
 }
 .tls-srvs-imgs {
 	display: flex;
@@ -1453,6 +1465,7 @@ background-attachment: fixed;
 	width: 50px;
 	padding: 0 5px;
 	display: inline-block;
+	transition: 2s;
 }
 .crt-icon-x, .crt-icon-i {
 	height: 22px;
@@ -1463,21 +1476,86 @@ background-attachment: fixed;
 	align-self: center;
 }
 
+@media screen and (max-width: 700px) {
+	.srv-page-header h3 {
+		color: #FFFFFF;
+		font-size: 2em;
+	}
+	.srv-page-header p  {
+		font-size: 1.1em;
+	}
+	.srv-cont {
+		width: inherit;
+		margin: 0 20px;
+	}
+	.srv-card h4 {
+		font-size: 1.5em;
+	}
+}
+@media screen and (max-width: 550px) {
+	.srv-card {
+		flex-wrap: wrap;
+		justify-content: left;
+		margin-left: 10px;
+		margin: 0;
+		padding: 0;
+	}
+	.srv-page-header h3 {
+		color: #FFFFFF;
+		font-size: 1.8em;
 
+	}
+	.srv-page-header p  {
+		font-size: 1em;
+
+	}
+	.card-img-cont-right {
+		margin: 0;
+		width: 50%;
+	}
+	.card-content-cont-left {
+		margin: 0;
+		order: 2;
+	}
+	.card-img-cont-left {
+		order: 1;
+		width: 50%;
+	}
+	.card-content-cont-right, .card-content-cont-left {
+		width: 90%;
+	}
+	.srv-card p {
+		font-size: .9em;
+	}
+	.tls-srvs-imgs {
+		margin-top: 10px;
+	}
+	.crt-icon {
+		max-width: 15%;
+		height: inherit;
+	}
+	.crt-icon-x, .crt-icon-i {
+		max-width: 20%;
+		max-height: 20%;
+	}
+	.tls-srvs-cont {
+		margin: 40px 20px 0 20px;
+	}
+}
 
 
 /*--------------------------------------------------------------
 ## About Me Page
 --------------------------------------------------------------*/
 .abt-cont {
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 	background-image: linear-gradient(to top, #ef5053 0%, #000000 100%);
 	background-attachment: fixed;
 	color: #FFFFFF;
 	padding: 20px;
 	font-size: 1.2em;
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-bottom: 50px;
 	border-radius: 5px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -1487,6 +1565,27 @@ background-attachment: fixed;
 	padding: 0 15px 5px 0;
 }
 
+@media screen and (max-width: 700px) {
+	.abt-cont {
+		width: inherit;
+		margin: 100px 20px;
+		font-size: .9em;
+	}
+
+}
+@media screen and (max-width: 500px) {
+	.abt-cont {
+		width: inherit;
+		margin: 100px 20px;
+		font-size: .9em;
+	}
+	.wp-image-184 {
+		float: none;
+		max-width: 50%;
+		display: block;
+		margin: 0 auto;
+	}
+}
 /*--------------------------------------------------------------
 ## Work Page
 --------------------------------------------------------------*/
