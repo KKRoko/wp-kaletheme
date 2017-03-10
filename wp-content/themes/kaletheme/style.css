@@ -561,7 +561,7 @@ a:active {
 	position: fixed;
 	z-index: 1;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	padding-bottom: 0;
+	padding-bottom: 10px;
 }
 .main-navigation {
 	clear: both;
@@ -815,6 +815,9 @@ transition: .3s;
 		text-align: center;
 		width: 100px;
 		margin-left: auto;
+	}
+	#site-navigation {
+		padding-bottom: 0;
 	}
 
 	/*--------------------------------------------------------------
@@ -1164,6 +1167,7 @@ object {
 	margin: 20px;
 	padding: 20px 50px;
 	font-size: 1.5em;
+	transition: 2s;
 }
 .front-desc-container h4 {
 	font-weight: 400;
@@ -1181,7 +1185,7 @@ object {
 	font-size: 3em;
 	font-weight: 400;
 	line-height: 1em;
-
+	transition: 2s;
 }
 .srv-container {
 	display: flex;
@@ -1248,6 +1252,7 @@ object {
     color: #FFFFFF;
     padding-bottom: 10px;
     font-weight: 300;
+		transition: 2s;
 }
 
 .tsml-item {
@@ -1257,6 +1262,7 @@ object {
 .tsml-qt  {
   color: #FFFFFF;
   font-size: 1.2em;
+	transition: 2s;
 }
 
 .tsml-ath {
@@ -1264,6 +1270,7 @@ object {
   font-weight: bold;
   font-size: 1.3em;
   margin: 10px;
+	transition: 2s;
 }
 
 @media screen and (max-width: 700px) {
@@ -1280,6 +1287,23 @@ object {
 	#hero-msg {
 		width: 100%;
 		padding: 18px 5px 0 20px;
+	}
+	.front-desc-container {
+		margin: 0;
+		padding: 20px 20px;
+		font-size: 1.1em;
+	}
+	.srv-section-container h3 {
+		font-size: 2em;
+	}
+	#tsmls-hl {
+		font-size: 1.9em;
+	}
+	.tsml-qt  {
+		font-size: 1em;
+	}
+	.tsml-ath {
+		font-size: 1em;
 	}
 }
 @media screen and (max-width: 900px) {
@@ -2088,40 +2112,32 @@ footer a {
 @media (max-width: 830px) {
   footer {
     background-color: blue;
-    height: 350px;
+    height: 340px;
   }
 
   .ftr-ctn {
-    margin: 0 auto;
-    width: 390px;
-    height: 350px;
+
   }
 
   .cntc-me {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 390px;
-    height: 116px;
-    padding: 0;
+    top: 20px;
+		padding: 0;
+		height: 0;
   }
 
   .md-by-me {
     position: absolute;
-    top: 250px;
-    left: 0;
-    width: 390px;
-    height: 90px;
-    padding: 0;
+    top: 220px;
+		padding: 0;
+		height: 0;
 }
 
   .scslc {
     position: absolute;
     top: 110px;
-    left: 0;
-    width: 390px;
-    height: 116px;
-    padding: 0;
+		height: 0;
+		padding: 0;
   }
 
 }
