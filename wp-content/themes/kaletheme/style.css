@@ -1122,7 +1122,7 @@ object {
 
 #hero {
 	position: relative;
-	height: 95.6vh;
+	height: 100vh;
 	border-bottom: 10px solid #EF5053;
 }
 #particles-js {
@@ -1697,7 +1697,6 @@ transition: 2s;
 .tatami-one img {
 	position: relative;
 	display: block;
-	min-height: 100%;
 	width: 100%;
 	opacity: 1;
 	-webkit-transition: opacity 0.35s;
@@ -1778,7 +1777,6 @@ figure.tatami-one:hover p {
 .tatami-two img {
 	position: relative;
 	display: block;
-	min-height: 100%;
 	width: 100%;
 	opacity: 1;
 	-webkit-transition: opacity 0.35s;
@@ -1858,7 +1856,6 @@ figure.tatami-two:hover p {
 .tatami-three img {
 	position: relative;
 	display: block;
-	min-height: 100%;
 	width: 100%;
 	opacity: 1;
 	-webkit-transition: opacity 0.35s;
@@ -1939,7 +1936,6 @@ figure.tatami-three:hover p {
 .tatami-four img {
 	position: relative;
 	display: block;
-	min-height: 100%;
 	width: 100%;
 	opacity: 1;
 	-webkit-transition: opacity 0.35s;
@@ -2019,7 +2015,6 @@ figure.tatami-four:hover p {
 .tatami-five img {
 	position: relative;
 	display: block;
-	min-height: 100%;
 	width: 100%;
 	opacity: 1;
 	-webkit-transition: opacity 0.35s;
@@ -2099,7 +2094,6 @@ figure.tatami-five:hover p {
 .tatami-six img {
 	position: relative;
 	display: block;
-	min-height: 100%;
 	width: 100%;
 	opacity: 1;
 	-webkit-transition: opacity 0.35s;
@@ -2235,7 +2229,6 @@ input .wpcf7-submit {
 footer {
   color: #FFFFFF;
   background: linear-gradient(#232526 0%, #414345 100%);
-  width: 100%;
   border-bottom: 10px solid rgba(239, 83, 80, 1);
   height: auto;
   position: relative;
@@ -2257,6 +2250,7 @@ footer a {
 	display: flex;
 	justify-content: center;
   position: relative;
+	flex-wrap: wrap;
 }
 
 
@@ -2271,7 +2265,7 @@ footer a {
 @media (max-width: 830px) {
   footer {
     background-color: blue;
-    height: 340px;
+    height: inherit;
   }
 
   .ftr-ctn {
@@ -2279,45 +2273,39 @@ footer a {
   }
 
   .cntc-me {
-    position: absolute;
-    top: 20px;
-		padding: 0;
-		height: 0;
+		order: 2;
+		padding: 10px;
   }
 
   .md-by-me {
-    position: absolute;
-    top: 220px;
-		padding: 0;
-		height: 0;
+		order: 3;
+		padding: 10px;
 }
 
   .scslc {
-    position: absolute;
-    top: 110px;
-		height: 0;
-		padding: 0;
+		order: 1;
+		padding: 10px;
   }
 
 }
 
-@media (max-device-width: 320px) {
+@media (max-device-width: 400px) {
   .ftr-ctn {
-    width: 300px;
+
   }
   .cntc-me, .md-by-me, .scslc {
-    width: 100%;
+  padding: 10px;
   }
   .ft-tl {
-    margin: 10px 0;
+
   }
 
   .scslc {
-    top: 100px;
+
   }
 
   .md-by-me {
-    top: 220px;
+
   }
 }
 

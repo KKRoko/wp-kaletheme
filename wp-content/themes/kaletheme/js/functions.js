@@ -2,7 +2,7 @@
 
 // particlesJS in Home page
 
-particlesJS.load('particles-js', 'http://localhost:8888/wp-content/themes/kaletheme/js/particles.json', function() {
+particlesJS.load('particles-js', 'wp-content/themes/kaletheme/js/particles.json', function() {
 console.log('callback - particles.js config loaded');
 });
 
