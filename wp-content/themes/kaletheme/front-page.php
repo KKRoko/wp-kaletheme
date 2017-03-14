@@ -30,7 +30,7 @@
             <div><?php the_field('srv_six');?></div>
           </div>
           <div class="srv-btn-cont">
-            <?php the_field('srv_btn');?>
+            <a href="/services"><?php the_field('srv_btn');?></a>
           </div>
         </div>
       </section>

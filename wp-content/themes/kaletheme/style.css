@@ -1210,6 +1210,9 @@ object {
 	width: 200px;
 	margin: 0 auto;
 }
+.srv-btn-cont a {
+	text-decoration: none;
+}
 #lm-srv {
 	background-color: rgba(239, 83, 80, 1);
 	cursor: pointer;
@@ -1320,7 +1323,7 @@ object {
 .srv-body-wrapper {
 background-image: linear-gradient(to top, #ef5053 0%, #000000 100%);
 background-attachment: fixed;
-margin-top: 50px;
+margin-top: 40px;
 transition: 2s;
 }
 .srv-page-header {
