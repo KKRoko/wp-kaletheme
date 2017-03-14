@@ -2207,6 +2207,20 @@ figure.tatami-six:hover p {
 		left: 0;
 	}
 }
+/*--------------------------------------------------------------
+## Project - WorthFM Page
+--------------------------------------------------------------*/
+
+#work-worhfm-section {
+	position: relative;
+	width: 400px;
+}
+#work-worhfm-section img {
+	display: block;
+	width: 100%;
+	height: 400px;
+}
+
 
 /*--------------------------------------------------------------
 ## Contact Page
