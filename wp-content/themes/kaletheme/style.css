@@ -2213,7 +2213,7 @@ figure.tatami-six:hover p {
 .wrth-wrpr {
 	position: relative;
 	margin-top: 40px;
-	height: 2000px;
+	height: 100%;
 	width: 100%;
 }
 .work-worhfm-section {
@@ -2247,12 +2247,12 @@ figure.tatami-six:hover p {
 	height: 90px;
 }
 .work-worthfm-title span {
-	font-size: 5em;
+	font-size: 4em;
 	font-weight: bold;
 	color: #FFFFFF;
 }
 .work-worthfm-subtitle span {
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 400;
 	color: #FFFFFF;
 }
@@ -2264,7 +2264,7 @@ figure.tatami-six:hover p {
 	flex-wrap: wrap;
 }
 .work-worthfm-body-description-container {
-	width: 50%;
+	width: 500px;
 	padding: 20px 50px;
 	text-align: right;
 }
@@ -2273,19 +2273,15 @@ figure.tatami-six:hover p {
 	padding: 10px 20px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-.work-worthfm-description p {
-	font-size: 1.3em;
-	font-weight: 400;
-	color: #7A7A79;
-}
+
 .work-worthfm-body-description-goal h4, .work-worthfm-body-description-process h4, .work-worthfm-body-description-solution h4, .work-worthfm-body-description-tools h4 {
-	font-size: 1.5em;
+	font-size: 25px;
 	font-weight: 400;
 	color: #EF5053;
 }
-.work-worthfm-body-description-goal p, .work-worthfm-body-description-process p, .work-worthfm-body-description-solution p {
-	font-size: 1.3em;
-	font-weight: 400;
+.work-worthfm-description p, .work-worthfm-body-description-goal p, .work-worthfm-body-description-process p, .work-worthfm-body-description-solution p {
+	font-size: 21px;
+	font-weight: 300;
 	color: #7A7A79;
 }
 .wrk-bts {
@@ -2299,18 +2295,19 @@ figure.tatami-six:hover p {
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .work-worthfm-body-img-container {
-	width: 50%;
+	max-width: 500px;
 }
 .work-worthfm-body-img {
 	width: 50%;
 	display: block;
 	margin: 0 auto;
+	padding-bottom: 50px;
 }
 .work-worthfm-link {
-	padding: 10px 20px;
+	padding: 10px 10px;
 	color: #FFFFFF;
 	background-color: #EF5053;
-	width: 124px;
+	text-align: center;
 	margin-left: auto;
 	margin-top: 100px;
 	border-radius: 5px;
@@ -2323,6 +2320,47 @@ figure.tatami-six:hover p {
 .work-worthfm-link:hover {
 	box-shadow: 0 2px 4px rgba(0,0,0,0.25), 0 2px 3px rgba(0,0,0,0.22);
 	cursor: pointer;
+}
+@media screen and (max-width: 450px) {
+	.work-worthfm-body-description-container {
+    padding: 20px 20px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.work-worthfm-title-container {
+		width: 100%;
+	}
+	.work-worthfm-body-container {
+		padding: 20px 10px;
+	}
+	.work-worthfm-body-description-container {
+		padding: 20px 10px;
+	}
+	.work-worthfm-title {
+    height: 80px;
+	}
+	.work-worthfm-title span {
+		font-size: 3em;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+	.work-worthfm-subtitle span {
+		font-size: 1.2em;
+		font-weight: 400;
+		color: #FFFFFF;
+	}
+	.work-worthfm-link {
+		margin: 50px 0;
+	}
+	.work-worthfm-description p,
+	.work-worthfm-body-description-goal p,
+	.work-worthfm-body-description-process p,
+	.work-worthfm-body-description-solution p {
+		font-size: 15px;
+	}
+	.work-worthfm-body-img {
+    width: 70%;
+	}
 }
 
 /*--------------------------------------------------------------

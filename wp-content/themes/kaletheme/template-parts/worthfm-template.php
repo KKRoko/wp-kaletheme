@@ -42,7 +42,7 @@
             <div class="work-worthfm-body-description-process wow fadeInUp data-wow-duration="1s" data-wow-delay=".4s"">
               <h4>The Process</h4>
               <p>
-                I worked with the Creatie Director to convert the designs into pixel perfet HTML. Using Slack and Google Hangouts, communation was my main priority to ensure that the project is a success. Working with the Product Manager and the VP of Marketing,
+                I worked with the Creatie Director to convert the designs into pixel perfect HTML. Using Slack and Google Hangouts, communication wasoury main priority to ensure that the project is a success. Working with the Product Manager and the VP of Marketing,
                 we implement tags, customer attributes and analytics to track our goals and converstions.
               </p>
             </div>
@@ -73,6 +73,8 @@
           </div>
           <div class="work-worthfm-body-img-container fadeInRight animated" >
             <img class="work-worthfm-body-img" src="/wp-content/uploads/2017/03/worthfm-1.png" />
+            <img class="work-worthfm-body-img" src="/wp-content/uploads/2017/03/worthfm-2.png" />
+            <img class="work-worthfm-body-img" src="/wp-content/uploads/2017/03/worthfm-3.png" />
           </div>
         </div>
       </div>
