@@ -19,12 +19,14 @@
         </div>
       </div>
       <div class="grid grid-one">
+        <a href="/work/worthfm">
           <figure class="tatami tatami-one">
             <img src="/wp-content/uploads/2017/02/worthfm-logo.jpg" />
             <figcaption>
               <p>WorthFM</p>
             </figcaption>
           </figure>
+        </a>
       </div>
       <div class="grid grid-two">
         <figure class="tatami tatami-two">

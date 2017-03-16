@@ -1,4 +1,4 @@
-
+new WOW().init();
 
 // particlesJS in Home page
 
