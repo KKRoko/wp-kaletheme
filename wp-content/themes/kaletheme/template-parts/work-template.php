@@ -30,7 +30,7 @@
       </div>
       <div class="grid grid-two">
         <figure class="tatami tatami-two">
-          <img src="/wp-content/uploads/2017/02/vgtb-logo.png" />
+          <img src="/wp-content/uploads/2017/03/vgtb-logo.png" />
           <figcaption>
             <p>Vegan Girls Taste Better</p>
           </figcaption>
