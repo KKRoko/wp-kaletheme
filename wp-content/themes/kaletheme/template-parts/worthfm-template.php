@@ -12,13 +12,14 @@
     <section>
       <div class="work-worhfm-section">
         <div class="work-worthfm-header-container">
-          <div class="work-worthfm-header"></div>
-          <div class="work-worthfm-title-container wow fadeIn data-wow-duration="1s" data-wow-delay=".4s"">
-            <div class="work-worthfm-title">
-              <span>WorthFM</span>
-            </div>
-            <div  class="work-worthfm-subtitle">
-              <span>Finally, investing made clear</span>
+          <div class="work-worthfm-header">
+            <div class="work-worthfm-title-container wow fadeIn data-wow-duration="1s" data-wow-delay=".4s"">
+              <div class="work-worthfm-title">
+                <span>WorthFM</span>
+              </div>
+              <div  class="work-worthfm-subtitle">
+                <span>Finally, investing made clear</span>
+              </div>
             </div>
           </div>
         </div>
