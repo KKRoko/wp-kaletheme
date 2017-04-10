@@ -32,7 +32,7 @@
         </div>
         <div class="srv-card">
             <div class="card-content-cont-left">
-              <h4>Techonology</h4>
+              <h4>Technology</h4>
               <p>
                 Let's develop a site that is specifically tailored to your needs. From custom design to custom themes and code, your site will be tailored made just for your site. The site we develope is precisely catered for you and just you. Why custom development rather that generic theme? Becuase we care about your success.
               </p>

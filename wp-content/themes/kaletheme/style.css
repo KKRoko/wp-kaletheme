@@ -548,7 +548,7 @@ a:active {
 }
 
 a:focus {
-	outline: thin dotted;
+	outline: 0	;
 }
 
 a:hover,
@@ -639,9 +639,14 @@ a:active {
 }
 .main-navigation a:hover {
 	color: rgba(239, 83, 80, 1);
-text-decoration: none;
-transition: .3s;
+	text-decoration: none;
+	transition: .3s;
 }
+.main-navigation a:active,
+.main-navigation a:visited {
+	text-decoration: none;
+}
+
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
@@ -693,7 +698,12 @@ transition: .3s;
 	border: 1px solid #EF5053;
 	color: #EF5053;
 }
-
+.main-navigation .current_page_item > a:active,
+.main-navigation .current-menu-item > a:active,
+.main-navigation .current_page_ancestor > a:active,
+.main-navigation .current-menu-ancestor > a:active {
+	text-decoration: none;
+}
 .nav-icon3  {
   display: none;
   width: 30px;
@@ -1339,8 +1349,6 @@ margin: 0 auto;
 ## Service Page
 --------------------------------------------------------------*/
 .srv-body-wrapper {
-background-image: linear-gradient(to top, #ef5053 0%, #000000 100%);
-background-attachment: fixed;
 margin-top: 40px;
 transition: 2s;
 }
@@ -1350,13 +1358,13 @@ transition: 2s;
 	transition: 2s;
 }
 .srv-page-header h3 {
-	color: #FFFFFF;
+	color: #000000;
 	font-size: 2.5em;
 	transition: 2s;
 	transition: 2s;
 }
 .srv-page-header p {
-	color: #FFFFFF;
+	color: #000000;
 	font-size: 1.5em;
 	padding: 0 0 30px 0;
 	margin: 0 0 20px 0;
@@ -1364,7 +1372,6 @@ transition: 2s;
 	transition: 2s;
 }
 .srv-cont {
-
 	height: 100%;
 	margin: 50px;
 	margin-top: 20px;
@@ -1394,7 +1401,7 @@ transition: 2s;
 	height: 200px;
 }
 .tls-srvs-cont {
-	border: 3px solid #FFFFFF;
+	border: 3px solid #000000;
 	border-bottom: none;
 	margin: 0 50px;
 	padding-bottom: 50px;
@@ -1403,7 +1410,7 @@ transition: 2s;
 	text-align: center;
 }
 .tls-srvs-header h5 {
-	color: #FFFFFF;
+	color: #000000;
 	font-size: 2em;
 	font-weight: 400;
 }
@@ -1414,8 +1421,9 @@ transition: 2s;
 	align-items: center;
 }
 .tls-srvs-card {
+	background-color: #EF5053;
 	width: 400px;
-	color: #FFFFFF;
+	color: #000000;
 	text-align: center;
 	padding: 20px;
 	margin: 20px;
@@ -1434,15 +1442,15 @@ transition: 2s;
 }
 .tls-srvs-card li {
 	list-style: none;
-	color: #FFFFFF;
+	color: #000000;
 }
 .srv-card h4 {
 	font-size: 2em;
 	margin-bottom: 10px;
-	color: #FFFFFF;
+	color: #000000;
 }
 .srv-card p {
-	color: #FFFFFF;
+	color: #000000;
 	transition: 2s;
 }
 .tls-srvs-imgs {
@@ -1499,7 +1507,7 @@ transition: 2s;
 
 @media screen and (max-width: 700px) {
 	.srv-page-header h3 {
-		color: #FFFFFF;
+		color: #000000;
 		font-size: 2em;
 	}
 	.srv-page-header p  {
@@ -1522,7 +1530,7 @@ transition: 2s;
 		padding: 0;
 	}
 	.srv-page-header h3 {
-		color: #FFFFFF;
+		color: #000000;
 		font-size: 1.8em;
 
 	}
@@ -2727,7 +2735,6 @@ figure.tatami:hover p {
 .work-worthfm-description, .work-worthfm-body-description-goal, .work-worthfm-body-description-process, .work-worthfm-body-description-solution, .work-worthfm-description, .work-worthfm-body-description-tools {
 	margin: 20px 0;
 	padding: 10px 20px;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .work-worthfm-body-description-goal h4, .work-worthfm-body-description-process h4, .work-worthfm-body-description-solution h4, .work-worthfm-body-description-tools h4 {
@@ -2769,7 +2776,10 @@ figure.tatami:hover p {
 	border-radius: 5px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-.work-worthfm-link a {
+.work-worthfm-link > a,
+.work-worthfm-link > a:hover,
+.work-worthfm-link > a:active,
+.work-worthfm-link > a:visited {
 	text-decoration: none;
 	color: #FFFFFF;
 }
@@ -3331,7 +3341,122 @@ figure.tatami:hover p {
 	font-size: .7em;
 	margin: 0 auto;
 }
+.sitonme-body-four {
+	margin: 20px 0;
+}
 .sitonme-body-four > img {
+	display: block;
+	margin: 0 auto;
+}
+.sitonme-body-five {
+	background-color: #795548;
+}
+.sitonme-body-five > h3 {
+	text-align: center;
+	color: #FFFFFF;
+}
+.sitonme-body-five-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+/*--------------------------------------------------------------
+## GoGreen Page
+--------------------------------------------------------------*/
+.gogreen-wrapper {
+	margin: 50px 0 0 0;
+}
+.gogreen-one-container {
+	background-image: url("/wp-content/uploads/2017/04/gogreen-header.jpg");
+	height: 400px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.gogreen-two-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 20px 0;
+}
+.gogreen-one-header > h3 {
+	color: #FFFFFF;
+	font-size: 3em;
+	text-align: center;
+	padding: 100px 0 0 0;
+}
+.green-two-description, .green-two-img-description {
+	width: 400px;
+}
+.gogreen-three-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 0 20px 0;
+}
+.gogreen-three-color-typo-container {
+	width: 400px;
+}
+.gogreen-three-color-typo-container > img {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.gogreen-three-color {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+}
+.gogreen-three-color-container {
+	margin: 20px;
+}
+.gogreen-three-color-red {
+	height: 100px;
+	width: 100px;
+	background-color: #FF3100;
+}
+.gogreen-three-color-orange {
+	height: 100px;
+	width: 100px;
+	background-color: #FF8700;
+}
+.gogreen-three-color-blue {
+	height: 100px;
+	width: 100px;
+	background-color: #0882B7;
+}
+.gogreen-three-color-green {
+	height: 100px;
+	width: 100px;
+	background-color: #00C851;
+}
+.gogreen-three-image-container {
+	width: 670px;
+}
+.gogreen-three-image-container > h6 {
+	text-align: center;
+}
+.gogreen-three-image-container > img {
+	height: 100%;
+	vertical-align: top;
+	display: inline-block;
+	margin: 0 20px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.gogreen-four {
+	background-color: #FF3100;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.gogreen-four > img {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	margin: 20px;
+	display: block;
+	height: 100%;
+
+}
+.gogreen-five > img {
 	display: block;
 	margin: 0 auto;
 }

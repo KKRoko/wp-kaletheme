@@ -25,14 +25,14 @@
         </figure>
       </div>
       <div class="work-grid work-grid-three">
-        <a href="/work/sitonme">
-          <figure class="tatami tatami-three">
-            <img class="work-item" src="/wp-content/uploads/2017/03/sitonme.jpg" alt="SitOnMe"/>
+        <figure class="tatami tatami-three">
+          <img class="work-item" src="/wp-content/uploads/2017/03/sitonme.jpg" alt="SitOnMe"/>
+            <a href="/work/sitonme">
             <figcaption>
               <p>SitOnMe</p>
             </figcaption>
-          </figure>
-        </a>
+            </a>
+        </figure>
       </div>
       <div class="work-grid work-grid-four">
         <figure class="tatami tatami-four">
@@ -43,14 +43,14 @@
         </figure>
       </div>
       <div class="work-grid work-grid-five">
+      <figure class="tatami tatami-five">
+        <img class="work-item" src="/wp-content/uploads/2017/03/worthfm.png" alt="WorthFM"/>
         <a href="/work/worthfm">
-          <figure class="tatami tatami-five">
-            <img class="work-item" src="/wp-content/uploads/2017/03/worthfm.png" alt="WorthFM"/>
-            <figcaption>
-              <p>WorthFM</p>
-            </figcaption>
-          </figure>
+          <figcaption>
+            <p>WorthFM</p>
+          </figcaption>
         </a>
+      </figure>
       </div>
       <div class="work-grid work-grid-six">
         <a href="/work/yogi">
@@ -65,20 +65,22 @@
       <div class="work-grid work-grid-seven">
         <figure class="tatami tatami-seven">
           <img class="work-item" src="/wp-content/uploads/2017/03/gogreen.jpg" alt="GoGreen" />
-          <figcaption>
-            <p>GoGreen</p>
-          </figcaption>
-        </figure>
+          <a href="/work/gogreen">
+            <figcaption>
+              <p>GoGreen</p>
+            </figcaption>
+          </figure>
+          </a>
       </div>
       <div class="work-grid work-grid-eight">
-        <a href="/work/beaunoq">
-          <figure class="tatami tatami-eight">
-            <img class="work-item" src="/wp-content/uploads/2017/03/beaunoq.jpg" alt="BeauNoq" />
+        <figure class="tatami tatami-eight">
+        <img class="work-item" src="/wp-content/uploads/2017/03/beaunoq.jpg" alt="BeauNoq" />
+          <a href="/work/beaunoq">
             <figcaption>
               <p>BeauNoq</p>
             </figcaption>
-          </figure>
-        </a>
+          </a>
+        </figure>
       </div>
       <div class="work-grid work-grid-nine">
         <figure class="tatami tatami-nine">

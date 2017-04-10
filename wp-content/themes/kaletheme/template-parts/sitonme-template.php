@@ -70,10 +70,23 @@
         <div class="sitonme-body-three">
           <h3>Typography</h3>
           <p>
-            Open Sans works will at different screen resolutionsl, offering a modern
-            and trendy look, while maintaining the simplicity. Its open and circular form give friendly
+            Open Sans works will with different screen resolutions, offering a modern
+            and trendy look, while maintaining the simplicity. Its open and circular form gives friendly
             appearance to any screen which helps in guiding through the app with ease
           </p>
+        </div>
+        <div class="sitonme-body-five">
+          <h3>Wireframe</h3>
+          <div class="sitonme-body-five-container">
+            <div class="sitonme-wireframe-one">
+              <h6>Front Page</h6>
+              <img src="/wp-content/uploads/2017/04/sitonme-frontpage-wireframe.png" />
+            </div>
+            <div class="sitonme-wireframe-two">
+              <h6>Product Page</h6>
+              <img src="/wp-content/uploads/2017/04/sitonme-product-wireframe.png" />
+            </div>
+          </div>
         </div>
         <div class="sitonme-body-four">
           <img src="/wp-content/uploads/2017/04/frontpage-sitonme.png" />
