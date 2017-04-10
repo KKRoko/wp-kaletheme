@@ -77,6 +77,9 @@
         </div>
         <div class="sitonme-body-five">
           <h3>Wireframe</h3>
+          <p>
+            Work begins from ideas and sketches. 80% research and 20% design.
+          </p>
           <div class="sitonme-body-five-container">
             <div class="sitonme-wireframe-one">
               <h6>Front Page</h6>

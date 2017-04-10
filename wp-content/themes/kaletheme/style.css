@@ -3162,8 +3162,10 @@ figure.tatami:hover p {
 	height: 400px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center bottom;
-	margin: 50px 0 0 0;
+	background-position: center top;
+	background-attachment: fixed;
+	background-position-y: -150px;
+	margin: 44px 0 0 0;
 	color: #FFFFFF;
 	font-size: 3em;
 	text-align: center;
@@ -3184,7 +3186,6 @@ figure.tatami:hover p {
 	margin: 20px 0;
 }
 .sitonme-body-two > h3 {
-	font-size: .7em;
 	text-align: center;
 }
 .sitonme-body-one-header {
@@ -3192,7 +3193,6 @@ figure.tatami:hover p {
 	margin: 0 auto;
 }
 .sitonme-body-one-header >p {
-	font-size: .7em;
 }
 .sitonme-body-two-container {
 	display: flex;
@@ -3338,7 +3338,6 @@ figure.tatami:hover p {
 .sitonme-body-three {
 	padding: 20px;
 	width: 300px;
-	font-size: .7em;
 	margin: 0 auto;
 }
 .sitonme-body-four {
@@ -3355,10 +3354,23 @@ figure.tatami:hover p {
 	text-align: center;
 	color: #FFFFFF;
 }
+.sitonme-body-five > p {
+	text-align: center;
+	color: #FFFFFF;
+}
 .sitonme-body-five-container {
+	margin: 10px 0 0 0;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+}
+.sitonme-wireframe-one > h6 {
+	color: #FFFFFF;
+	text-align: center;
+}
+.sitonme-wireframe-two > h6 {
+	color: #FFFFFF;
+	text-align: center;
 }
 /*--------------------------------------------------------------
 ## GoGreen Page
