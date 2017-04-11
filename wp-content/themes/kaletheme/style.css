@@ -1336,6 +1336,7 @@ margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
 }
 .client-logo-wrapper {
 	margin: 20px;
@@ -2216,7 +2217,7 @@ figure.tatami:hover p {
 }
 @media screen and (max-width: 850px)  {
 	.wrk-wrp {
-		height: 1950px;
+		height: 1800px;
 	}
 	.tatami {
 		overflow: hidden;
@@ -2227,7 +2228,7 @@ figure.tatami:hover p {
 		margin: 0 auto;
 	}
 	.work-grid {
-		height: 250px;
+		height: 400px;
 		width: 400px;
 	}
 	.work-item {
@@ -2236,12 +2237,11 @@ figure.tatami:hover p {
 	.work-grid-one {
 		top: 0;
 		left: 0;
-		height: 200px;
+		height: 50px;
 		width: 100%;
-		border: 1px solid red;
 	}
 	.work-grid-two {
-		top:200px;
+		top:50px;
 		left: 0;
 	}
 	figure.tatami-two p {
@@ -2249,7 +2249,7 @@ figure.tatami:hover p {
 		font-size: 2em;
 	}
 	.work-grid-three {
-		top:200px;
+		top:50px;
 		left: 400px;
 	}
 	figure.tatami-three p {
@@ -2257,7 +2257,7 @@ figure.tatami:hover p {
 		font-size: 2em;
 	}
 	.work-grid-four {
-		top:600px;
+		top:450px;
 		left: 0;
 	}
 	figure.tatami-four p {
@@ -2268,7 +2268,7 @@ figure.tatami:hover p {
 		line-height: 40px;
 	}
 	.work-grid-five {
-		top:600px;
+		top:450px;
 		left: 400px;
 	}
 	figure.tatami-five p {
@@ -2276,7 +2276,7 @@ figure.tatami:hover p {
 		font-size: 2em;
 	}
 	.work-grid-six {
-		top:1000px;
+		top:850px;
 		left: 0;
 	}
 	figure.tatami-six p {
@@ -2284,7 +2284,7 @@ figure.tatami:hover p {
 		font-size: 2em;
 	}
 	.work-grid-seven {
-		top:1000px;
+		top:850px;
 		left: 400px;
 	}
 	figure.tatami-seven p {
@@ -2292,7 +2292,7 @@ figure.tatami:hover p {
 		font-size: 2em;
 	}
 	.work-grid-eight {
-		top:1400px;
+		top:1250px;
 		left: 0;
 	}
 	figure.tatami-eight p {
@@ -2300,7 +2300,7 @@ figure.tatami:hover p {
 		font-size: 2em;
 	}
 	.work-grid-nine {
-		top:1400px;
+		top:1250px;
 		left: 400px;
 	}
 	figure.tatami-nine p {
@@ -2310,7 +2310,7 @@ figure.tatami:hover p {
 }
 @media screen and (max-width: 800px)  {
 	.wrk-wrp {
-		height: 1750px;
+		height: 1600px;
 	}
 	.tatami {
 		overflow: hidden;
@@ -2321,6 +2321,7 @@ figure.tatami:hover p {
 		margin: 0 auto;
 	}
 	.work-grid {
+		height: 350px;
 		width: 350px;
 	}
 	.work-item {
@@ -2329,61 +2330,60 @@ figure.tatami:hover p {
 	.work-grid-one {
 		top: 0;
 		left: 0;
-		height: 200px;
+		height: 50px;
 		width: 100%;
-		border: 1px solid red;
 	}
 	.work-grid-two {
-		top:200px;
+		top: 50px;
 		left: 0;
 	}
 	figure.tatami-two p {
 		padding: 150px 0;
 	}
 	.work-grid-three {
-		top:200px;
+		top: 50px;
 		left: 350px;
 	}
 	figure.tatami-three p {
 		padding: 150px 0;
 	}
 	.work-grid-four {
-		top:550px;
+		top:400px;
 		left: 0;
 	}
 	figure.tatami-four p {
 		padding: 140px 0;
 	}
 	.work-grid-five {
-		top:550px;
+		top:400px;
 		left: 350px;
 	}
 	figure.tatami-five p {
 		padding: 150px 0;
 	}
 	.work-grid-six {
-		top:900px;
+		top:750px;
 		left: 0;
 	}
 	figure.tatami-six p {
 		padding: 150px 0;
 	}
 	.work-grid-seven {
-		top:900px;
+		top:750px;
 		left: 350px;
 	}
 	figure.tatami-seven p {
 		padding: 150px 0;
 	}
 	.work-grid-eight {
-		top:1250px;
+		top:1100px;
 		left: 0;
 	}
 	figure.tatami-eight p {
 		padding: 150px 0;
 	}
 	.work-grid-nine {
-		top:1250px;
+		top:1100px;
 		left: 350px;
 	}
 	figure.tatami-nine p {
@@ -2392,7 +2392,7 @@ figure.tatami:hover p {
 }
 @media screen and (max-width: 750px)  {
 	.wrk-wrp {
-		height: 1550px;
+		height: 1400px;
 	}
 	.tatami {
 		overflow: hidden;
@@ -2403,6 +2403,7 @@ figure.tatami:hover p {
 		margin: 0 auto;
 	}
 	.work-grid {
+		height: 300px;
 		width: 300px;
 	}
 	.work-item {
@@ -2411,12 +2412,11 @@ figure.tatami:hover p {
 	.work-grid-one {
 		top: 0;
 		left: 0;
-		height: 200px;
+		height: 50px;
 		width: 100%;
-		border: 1px solid red;
 	}
 	.work-grid-two {
-		top:200px;
+		top:50px;
 		left: 0;
 	}
 	figure.tatami-two p {
@@ -2424,7 +2424,7 @@ figure.tatami:hover p {
 		font-size: 1.5em;
 	}
 	.work-grid-three {
-		top:200px;
+		top:50px;
 		left: 300px;
 	}
 	figure.tatami-three p {
@@ -2432,7 +2432,7 @@ figure.tatami:hover p {
 		font-size: 1.5em;
 	}
 	.work-grid-four {
-		top:500px;
+		top:350px;
 		left: 0;
 	}
 	figure.tatami-four p {
@@ -2442,7 +2442,7 @@ figure.tatami:hover p {
 		margin: 0 auto;
 	}
 	.work-grid-five {
-		top:500px;
+		top:350px;
 		left: 300px;
 	}
 	figure.tatami-five p {
@@ -2450,7 +2450,7 @@ figure.tatami:hover p {
 		font-size: 1.5em;
 	}
 	.work-grid-six {
-		top:800px;
+		top:650px;
 		left: 0;
 	}
 	figure.tatami-six p {
@@ -2458,7 +2458,7 @@ figure.tatami:hover p {
 		font-size: 1.5em;
 	}
 	.work-grid-seven {
-		top:800px;
+		top:650px;
 		left: 300px;
 	}
 	figure.tatami-seven p {
@@ -2466,7 +2466,7 @@ figure.tatami:hover p {
 		font-size: 1.5em;
 	}
 	.work-grid-eight {
-		top:1100px;
+		top:950px;
 		left: 0;
 	}
 	figure.tatami-eight p {
@@ -2474,7 +2474,7 @@ figure.tatami:hover p {
 		font-size: 1.5em;
 	}
 	.work-grid-nine {
-		top:1100px;
+		top:950px;
 		left: 300px;
 	}
 	figure.tatami-nine p {
@@ -2484,7 +2484,7 @@ figure.tatami:hover p {
 }
 @media screen and (max-width: 700px)  {
 	.wrk-wrp {
-		height: 1350px;
+		height: 1200px;
 	}
 	.tatami {
 		overflow: hidden;
@@ -2495,6 +2495,7 @@ figure.tatami:hover p {
 		margin: 0 auto;
 	}
 	.work-grid {
+		height: 250px;
 		width: 250px;
 	}
 	.work-item {
@@ -2503,13 +2504,12 @@ figure.tatami:hover p {
 	.work-grid-one {
 		top: 0;
 		left: 0;
-		height: 200px;
+		height: 50px;
 		width: 100%;
-		border: 1px solid red;
 	}
 
 	.work-grid-two {
-		top:200px;
+		top: 50px;
 		left: 0;
 	}
 	figure.tatami-two p {
@@ -2517,7 +2517,7 @@ figure.tatami:hover p {
 		font-size: 1.2em;
 	}
 	.work-grid-three {
-		top:200px;
+		top: 50px;
 		left: 250px;
 	}
 	figure.tatami-three p {
@@ -2525,7 +2525,7 @@ figure.tatami:hover p {
 		font-size: 1.2em;
 	}
 	.work-grid-four {
-		top:450px;
+		top:300px;
 		left: 0;
 	}
 	figure.tatami-four p {
@@ -2536,7 +2536,7 @@ figure.tatami:hover p {
 		margin: 0 auto;
 	}
 	.work-grid-five {
-		top:450px;
+		top: 300px;
 		left: 250px;
 	}
 	figure.tatami-five p {
@@ -2544,7 +2544,7 @@ figure.tatami:hover p {
 		font-size: 1.2em;
 	}
 	.work-grid-six {
-		top:700px;
+		top: 550px;
 		left: 0;
 	}
 	figure.tatami-six p {
@@ -2552,7 +2552,7 @@ figure.tatami:hover p {
 		font-size: 1.2em;
 	}
 	.work-grid-seven {
-		top:700px;
+		top: 550px;
 		left: 250px;
 	}
 	figure.tatami-seven p {
@@ -2560,7 +2560,7 @@ figure.tatami:hover p {
 		font-size: 1.2em;
 	}
 	.work-grid-eight {
-		top:950px;
+		top: 800px;
 		left: 0;
 	}
 	figure.tatami-eight p {
@@ -2568,7 +2568,7 @@ figure.tatami:hover p {
 		font-size: 1.2em;
 	}
 	.work-grid-nine {
-		top:950px;
+		top: 800px;
 		left: 250px;
 	}
 	figure.tatami-nine p {
@@ -2582,13 +2582,14 @@ figure.tatami:hover p {
 		width: 300px;
 	}
 	.wrk-wrp {
-		height: 2750px;
+		height: 2300px;
 	}
 	.work-container {
 		width: 300px;
 		margin: 0 auto;
 	}
 	.work-grid {
+		height: 300px;
 		width: 300px;
 	}
 	.work-item {
@@ -2597,12 +2598,11 @@ figure.tatami:hover p {
 	.work-grid-one {
 		top: 0;
 		left: 0;
-		height: 200px;
+		height: 50px;
 		width: 100%;
-		border: 1px solid red;
 	}
 	.work-grid-two {
-		top:200px;
+		top: 50px;
 		left: 0;
 	}
 	figure.tatami-two p {
@@ -2610,7 +2610,7 @@ figure.tatami:hover p {
 		font-size: 1.5em;
 	}
 	.work-grid-three {
-		top:500px;
+		top: 350px;
 		left: 0;
 	}
 	figure.tatami-three p {
@@ -2618,7 +2618,7 @@ figure.tatami:hover p {
 		font-size: 1.5em;
 	}
 	.work-grid-four {
-		top:800px;
+		top: 650px;
 		left: 0;
 	}
 	figure.tatami-four p {
@@ -2629,7 +2629,7 @@ figure.tatami:hover p {
 		margin: 0 auto;
 	}
 	.work-grid-five {
-		top:1100px;
+		top: 950px;
 		left: 0;
 	}
 	figure.tatami-five p {
@@ -2637,7 +2637,7 @@ figure.tatami:hover p {
 		line-height: 35px;
 	}
 	.work-grid-six {
-		top:1400px;
+		top: 1250px;
 		left: 0;
 	}
 	figure.tatami-six p {
@@ -2645,7 +2645,7 @@ figure.tatami:hover p {
 		font-size: 1.5em;
 	}
 	.work-grid-seven {
-		top:1700px;
+		top:1500px;
 		left: 0;
 	}
 	figure.tatami-seven p {
@@ -2653,7 +2653,7 @@ figure.tatami:hover p {
 		font-size: 1.5em;
 	}
 	.work-grid-eight {
-		top:2000px;
+		top: 1800px;
 		left: 0;
 	}
 	figure.tatami-eight p {
@@ -2661,7 +2661,7 @@ figure.tatami:hover p {
 		font-size: 1.5em;
 	}
 	.work-grid-nine {
-		top:2300px;
+		top:2100px;
 		left: 0;
 	}
 	figure.tatami-nine p {
@@ -2759,12 +2759,13 @@ figure.tatami:hover p {
 }
 .work-worthfm-body-img-container {
 	max-width: 500px;
+
 }
 .work-worthfm-body-img {
 	width: 50%;
 	display: block;
-	margin: 0 auto;
-	padding-bottom: 50px;
+	margin: 10px auto;
+			box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .work-worthfm-link {
 	padding: 10px 10px;
@@ -3398,6 +3399,17 @@ figure.tatami:hover p {
 	text-align: center;
 	padding: 100px 0 0 0;
 }
+.green-two-description > p {
+	font-size: 14px;
+}
+.green-two-description > ul {
+	margin: 0;
+	padding: 0;
+}
+.green-two-description > ul > li {
+	list-style: none;
+	font-size: 14px;
+}
 .green-two-description, .green-two-img-description {
 	width: 400px;
 }
@@ -3443,7 +3455,7 @@ figure.tatami:hover p {
 	background-color: #00C851;
 }
 .gogreen-three-image-container {
-	width: 670px;
+	width: 400px;
 }
 .gogreen-three-image-container > h6 {
 	text-align: center;
@@ -3453,7 +3465,6 @@ figure.tatami:hover p {
 	vertical-align: top;
 	display: inline-block;
 	margin: 0 20px;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .gogreen-four {
 	background-color: #FF3100;
@@ -3470,7 +3481,7 @@ figure.tatami:hover p {
 }
 .gogreen-five > img {
 	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 /*--------------------------------------------------------------
 ## Contact Page

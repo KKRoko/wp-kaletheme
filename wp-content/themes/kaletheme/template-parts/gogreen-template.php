@@ -22,10 +22,12 @@
           with ease.
         </p>
         <ul>
-          <li>Respsive</li>
+          <h6>Features</h6>
+          <li>Responsive Design</li>
           <li>Wordpress</li>
-          <li>Mobile</li>
+          <li>Mobile Friendly</li>
           <li>Secure Payments</li>
+          <li>Custom built CMS</li>
         </ul>
       </div>
       <div class="green-two-img-description">
@@ -64,8 +66,8 @@
       </div>
       <div class="gogreen-three-image-container">
         <h6>Responsive</h6>
-        <img src="/wp-content/uploads/2017/04/grogreen-frontpage.png"/>
-        <img src="/wp-content/uploads/2017/04/gogreen-responsive.png" />
+
+        <img src="/wp-content/uploads/2017/04/gogreen-respnsive.png" />
       </div>
     </div>
     <div class="gogreen-four">

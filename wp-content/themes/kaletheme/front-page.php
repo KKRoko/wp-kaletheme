@@ -35,6 +35,35 @@
         </div>
       </section>
       <section>
+        <div class="clients-filter">
+          <div class="clients-container">
+            <div class="client-logo-wrapper">
+              <img class="client-logo" src="wp-content/uploads/2017/03/worthfm-logo.png" />
+            </div>
+
+            <div class="client-logo-wrapper">
+              <img class="client-logo" src="wp-content/uploads/2017/03/Wow.png"/>
+            </div>
+
+            <div class="client-logo-wrapper">
+              <img class="client-logo" src="wp-content/uploads/2017/03/Prudential.svg" />
+            </div>
+
+            <div class="client-logo-wrapper">
+              <img class="client-logo" src="wp-content/uploads/2017/03/InEducation.png" />
+            </div>
+
+            <div class="client-logo-wrapper">
+              <img class="client-logo" src="wp-content/uploads/2017/03/Vanguard.svg" />
+            </div>
+
+            <div class="client-logo-wrapper">
+              <img class="client-logo" src="wp-content/uploads/2017/03/Uhuru.svg" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
         <div class="clnts-tstmnls-cont">
           <div id="tsmls-bgc">
             <div id="tsmls-cntr">
@@ -72,36 +101,6 @@
       </section>
       <section>
         <div id="googleMap" style="width: 100%; height: 100vh;"></div>
-      </section>
-      <section>
-        <div class="clients-filter">
-          <div class="clients-container">
-            <div class="client-logo-wrapper">
-              <img class="client-logo" src="wp-content/uploads/2017/03/worthfm-logo.png" />
-            </div>
-
-            <div class="client-logo-wrapper">
-              <img class="client-logo" src="wp-content/uploads/2017/03/Wow.png"/>
-            </div>
-
-            <div class="client-logo-wrapper">
-              <img class="client-logo" src="wp-content/uploads/2017/03/Prudential.svg" />
-            </div>
-
-            <div class="client-logo-wrapper">
-              <img class="client-logo" src="wp-content/uploads/2017/03/InEducation.png" />
-            </div>
-
-            <div class="client-logo-wrapper">
-              <img class="client-logo" src="wp-content/uploads/2017/03/Vanguard.svg" />
-            </div>
-
-            <div class="client-logo-wrapper">
-              <img class="client-logo" src="wp-content/uploads/2017/03/Uhuru.svg" />
-            </div>
-
-          </div>
-        </div>
       </section>
   </div>
 

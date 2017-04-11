@@ -14,7 +14,7 @@
   <section>
     <div class="work-container">
       <div class="work-grid work-grid-one">
-        <h3>Work</h3>
+
       </div>
       <div class="work-grid work-grid-two">
         <figure class="tatami tatami-two">
@@ -83,12 +83,7 @@
         </figure>
       </div>
       <div class="work-grid work-grid-nine">
-        <figure class="tatami tatami-nine">
-          <img class="work-item" src="/wp-content/uploads/2017/03/uhuru.jpg" />
-          <figcaption>
-            <p>Cash on Hand</p>
-          </figcaption>
-        </figure>
+
       </div>
     </div>
   </section>
