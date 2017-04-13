@@ -20,7 +20,7 @@
       </section>
       <section>
         <div class="srv-section-container">
-        <h3>What We Can Do For You</h3>
+        <h3>What I Can Do For You</h3>
           <div class="srv-container">
             <div><?php the_field('srv_one');?></div>
             <div><?php the_field('srv_two');?></div>
@@ -29,7 +29,7 @@
             <div><?php the_field('srv_five');?></div>
             <div><?php the_field('srv_six');?></div>
           </div>
-          <div class="srv-btn-cont">
+          <div class="srv-btn-cont wow bounceIn data-wow-duration=".6s" data-wow-delay="1s"">
             <a href="/services"><?php the_field('srv_btn');?></a>
           </div>
         </div>
@@ -59,6 +59,13 @@
 
             <div class="client-logo-wrapper">
               <img class="client-logo" src="wp-content/uploads/2017/03/Uhuru.svg" />
+            </div>
+            <div class="srv-btn-cont wow bounceIn data-wow-duration=".6s" data-wow-delay="1s"">
+              <div id="lm-srv">
+                <a href="/work">
+                  <p>SEE MORE</p>
+                </a>
+              </div>
             </div>
           </div>
         </div>

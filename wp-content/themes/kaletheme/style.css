@@ -1240,6 +1240,7 @@ object {
 }
 #lm-srv p{
 	color: #FFFFFF;
+	text-align: center;
 }
 #lm-srv:hover {
   box-shadow: 0 2px 4px rgba(0,0,0,0.25), 0 2px 3px rgba(0,0,0,0.22);
@@ -1381,7 +1382,7 @@ transition: 2s;
 .srv-card {
  display: flex;
  justify-content: center;
- margin: 40px 0 40px 0;
+ margin: 40px 40px 40px 40px;
  padding: 40px 0 40px 0;
  align-items: center;
  transition: 2s;
@@ -2787,6 +2788,12 @@ figure.tatami:hover p {
 .work-worthfm-link:hover {
 	box-shadow: 0 2px 4px rgba(0,0,0,0.25), 0 2px 3px rgba(0,0,0,0.22);
 	cursor: pointer;
+}
+@media screen and (max-width: 1280px) {
+	.work-worthfm-header {
+		background-position-y: -300px;
+
+	}
 }
 @media screen and (max-width: 450px) {
 	.work-worthfm-body-description-container {
