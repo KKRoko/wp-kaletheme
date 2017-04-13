@@ -75,7 +75,7 @@
       <img src="/wp-content/uploads/2017/04/gogreen-donationspage.png" />
     </div>
     <div class="gogreen-five">
-      <img src="/wp-content/uploads/2017/04/GoGreen-Four.png" />
+      <img src="/wp-content/uploads/2017/04/gogreen-four.png" />
     </div>
   </section>
 </div>
