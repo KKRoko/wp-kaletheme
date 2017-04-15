@@ -3491,6 +3491,53 @@ figure.tatami:hover p {
 	margin: 10px auto;
 }
 /*--------------------------------------------------------------
+## IFSPhoto Page
+--------------------------------------------------------------*/
+.ifs-container {
+	margin: 44px 0 0 0;
+}
+.ifs-header-container {
+	margin: 100px 0 0 0;
+}
+.ifs-header-container > img {
+	display: block;
+	margin: 0 auto;
+}
+.ifs-body-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.ifs-body-color, .ifs-body-fonts {
+	margin: 20px;
+}
+.ifs-body-color > h3 {
+	margin: 0 0 20px 0;
+}
+.ifs-body-fonts > h3 {
+	margin: 0 0 30px 0;
+}
+.ifs-resposive-title > h3 {
+	text-align: center;
+}
+.ifs-resposive-container {
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.ifs-resposive-one > img, .ifs-resposive-two > img, .ifs-resposive-three > img, .ifs-resposive-four > img {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	margin: 20px;
+}
+.ifs-cards-container > img {
+	display: block;
+	margin: 0 auto;
+}
+/*--------------------------------------------------------------
 ## Contact Page
 --------------------------------------------------------------*/
 div.wpcf7 {

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="428px" height="383px" viewBox="0 0 428 383" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="17 -2.84217094e-14 142 23 142 148 17 125"></polygon>
+        <filter x="-5.6%" y="-3.4%" width="111.2%" height="109.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="18 0 118 20 118 120 18 100"></polygon>
+        <filter x="-11.5%" y="-7.9%" width="123.0%" height="119.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="12 0 92 15 92 95 12 80"></polygon>
+        <filter x="-10.0%" y="-15.8%" width="132.5%" height="127.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="-2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-7" points="10 0 60 8.92857143 60 58.9285714 10 50"></polygon>
+        <filter x="-16.0%" y="-22.1%" width="152.0%" height="144.1%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-9" points="17 -2.84217094e-14 142 23 142 148 17 125"></polygon>
+        <filter x="-5.6%" y="-3.4%" width="111.2%" height="109.5%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-11" points="18 0 118 20 118 120 18 100"></polygon>
+        <filter x="-11.5%" y="-7.9%" width="123.0%" height="119.2%" filterUnits="objectBoundingBox" id="filter-12">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-13" points="12 0 92 15 92 95 12 80"></polygon>
+        <filter x="-10.0%" y="-15.8%" width="132.5%" height="127.4%" filterUnits="objectBoundingBox" id="filter-14">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="-2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-15" points="10 0 60 8.92857143 60 58.9285714 10 50"></polygon>
+        <filter x="-16.0%" y="-22.1%" width="152.0%" height="144.1%" filterUnits="objectBoundingBox" id="filter-16">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-17" points="17 -2.84217094e-14 142 23 142 148 17 125"></polygon>
+        <filter x="-5.6%" y="-3.4%" width="111.2%" height="109.5%" filterUnits="objectBoundingBox" id="filter-18">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-19" points="18 0 118 20 118 120 18 100"></polygon>
+        <filter x="-11.5%" y="-7.9%" width="123.0%" height="119.2%" filterUnits="objectBoundingBox" id="filter-20">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-21" points="12 0 92 15 92 95 12 80"></polygon>
+        <filter x="-10.0%" y="-15.8%" width="132.5%" height="127.4%" filterUnits="objectBoundingBox" id="filter-22">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="-2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-23" points="10 2.27373675e-13 60 8.92857143 60 58.9285714 10 50"></polygon>
+        <filter x="-16.0%" y="-22.1%" width="152.0%" height="144.1%" filterUnits="objectBoundingBox" id="filter-24">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-25" points="17 -2.84217094e-14 142 23 142 148 17 125"></polygon>
+        <filter x="-5.6%" y="-3.4%" width="111.2%" height="109.5%" filterUnits="objectBoundingBox" id="filter-26">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-27" points="18 0 118 20 118 120 18 100"></polygon>
+        <filter x="-11.5%" y="-7.9%" width="123.0%" height="119.2%" filterUnits="objectBoundingBox" id="filter-28">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-29" points="12 0 92 15 92 95 12 80"></polygon>
+        <filter x="-10.0%" y="-15.8%" width="132.5%" height="127.4%" filterUnits="objectBoundingBox" id="filter-30">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="-2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-31" points="10 -1.13686838e-13 60 8.92857143 60 58.9285714 10 50"></polygon>
+        <filter x="-16.0%" y="-22.1%" width="152.0%" height="144.1%" filterUnits="objectBoundingBox" id="filter-32">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1024-copy-6" transform="translate(-104.000000, -196.000000)">
+            <g id="Group-3" transform="translate(103.000000, 194.000000)">
+                <g id="Group-2" transform="translate(104.493946, 88.284423) rotate(-1.000000) translate(-104.493946, -88.284423) translate(1.493946, 1.784423)">
+                    <polygon id="Rectangle-14" fill="#1C21E8" points="56 0 206 23 206 173 56 150"></polygon>
+                    <g id="Four" transform="translate(40.000000, 12.000000)">
+                        <g id="Rectangle-12" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                        <polygon id="Rectangle-12" fill="#090D96" points="0 11 125 34 125 159 0 136"></polygon>
+                    </g>
+                    <g id="Three" transform="translate(24.000000, 38.000000)">
+                        <g id="Rectangle" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        </g>
+                        <polygon id="Rectangle" fill="#0A0FCA" points="0 10 100 30 100 130 0 110"></polygon>
+                    </g>
+                    <g id="Two" transform="translate(10.000000, 65.000000)">
+                        <g id="Rectangle" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        </g>
+                        <polygon id="Rectangle" fill="#4044E9" points="0 8 80 23 80 103 0 88"></polygon>
+                    </g>
+                    <g id="One" transform="translate(0.000000, 98.000000)">
+                        <g id="Group">
+                            <g id="Rectangle" fill-opacity="1" fill="black">
+                                <use filter="url(#filter-8)" xlink:href="#path-7"></use>
+                            </g>
+                            <polygon id="Rectangle" fill="#686BEA" points="0 6 50 14.9285714 50 64.9285714 0 56"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(324.493946, 88.284423) rotate(-1.000000) translate(-324.493946, -88.284423) translate(221.493946, 1.784423)">
+                    <polygon id="Rectangle-14" fill="#6A11E7" points="56 -5.68434189e-14 206 23 206 173 56 150"></polygon>
+                    <g id="Four" transform="translate(40.000000, 12.000000)">
+                        <g id="Rectangle-12" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        </g>
+                        <polygon id="Rectangle-12" fill="#400592" points="7.38964445e-13 11 125 34 125 159 7.38964445e-13 136"></polygon>
+                    </g>
+                    <g id="Three" transform="translate(24.000000, 38.000000)">
+                        <g id="Rectangle" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-12)" xlink:href="#path-11"></use>
+                        </g>
+                        <polygon id="Rectangle" fill="#5606C6" points="-6.25277607e-13 10 100 30 100 130 -6.25277607e-13 110"></polygon>
+                    </g>
+                    <g id="Two" transform="translate(10.000000, 65.000000)">
+                        <g id="Rectangle" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-14)" xlink:href="#path-13"></use>
+                        </g>
+                        <polygon id="Rectangle" fill="#7F34E8" points="2.27373675e-13 8 80 23 80 103 2.27373675e-13 88"></polygon>
+                    </g>
+                    <g id="One" transform="translate(0.000000, 98.000000)">
+                        <g id="Group" transform="translate(0.000000, 0.000000)">
+                            <g id="Rectangle" fill-opacity="1" fill="black">
+                                <use filter="url(#filter-16)" xlink:href="#path-15"></use>
+                            </g>
+                            <polygon id="Rectangle" fill="#985EE9" points="-1.70530257e-13 6 50 14.9285714 50 64.9285714 -1.70530257e-13 56"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(104.493946, 300.284423) rotate(-1.000000) translate(-104.493946, -300.284423) translate(1.493946, 213.784423)">
+                    <polygon id="Rectangle-14" fill="#FFE700" points="56 0 206 23 206 173 56 150"></polygon>
+                    <g id="Four" transform="translate(40.000000, 12.000000)">
+                        <g id="Rectangle-12" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-18)" xlink:href="#path-17"></use>
+                        </g>
+                        <polygon id="Rectangle-12" fill="#D7C200" points="0 11 125 34 125 159 0 136"></polygon>
+                    </g>
+                    <g id="Three" transform="translate(24.000000, 38.000000)">
+                        <g id="Rectangle" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-20)" xlink:href="#path-19"></use>
+                        </g>
+                        <polygon id="Rectangle" fill="#FFE700" points="0 10 100 30 100 130 0 110"></polygon>
+                    </g>
+                    <g id="Two" transform="translate(10.000000, 65.000000)">
+                        <g id="Rectangle" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-22)" xlink:href="#path-21"></use>
+                        </g>
+                        <polygon id="Rectangle" fill="#FFEA27" points="0 8 80 23 80 103 0 88"></polygon>
+                    </g>
+                    <g id="One" transform="translate(0.000000, 98.000000)">
+                        <g id="Rectangle" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-24)" xlink:href="#path-23"></use>
+                        </g>
+                        <polygon id="Rectangle" fill="#FFEF58" points="-7.531753e-13 6 50 14.9285714 50 64.9285714 -7.531753e-13 56"></polygon>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(324.493946, 300.284423) rotate(-1.000000) translate(-324.493946, -300.284423) translate(221.493946, 213.784423)">
+                    <polygon id="Rectangle-14" fill="#FFBE00" points="56 5.68434189e-14 206 23 206 173 56 150"></polygon>
+                    <g id="Four" transform="translate(40.000000, 12.000000)">
+                        <g id="Rectangle-12" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-26)" xlink:href="#path-25"></use>
+                        </g>
+                        <polygon id="Rectangle-12" fill="#D7A000" points="7.95807864e-13 11 125 34 125 159 7.95807864e-13 136"></polygon>
+                    </g>
+                    <g id="Three" transform="translate(24.000000, 38.000000)">
+                        <g id="Rectangle" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-28)" xlink:href="#path-27"></use>
+                        </g>
+                        <polygon id="Rectangle" fill="#FFBE00" points="-5.68434189e-13 10 100 30 100 130 -5.68434189e-13 110"></polygon>
+                    </g>
+                    <g id="Two" transform="translate(10.000000, 65.000000)">
+                        <g id="Rectangle" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-30)" xlink:href="#path-29"></use>
+                        </g>
+                        <polygon id="Rectangle" fill="#FFC827" points="0 8 80 23 80 103 0 88"></polygon>
+                    </g>
+                    <g id="One" transform="translate(0.000000, 98.000000)">
+                        <g id="Rectangle" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-32)" xlink:href="#path-31"></use>
+                        </g>
+                        <polygon id="Rectangle" fill="#FFD458" points="-7.38964445e-13 6 50 14.9285714 50 64.9285714 -7.38964445e-13 56"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
